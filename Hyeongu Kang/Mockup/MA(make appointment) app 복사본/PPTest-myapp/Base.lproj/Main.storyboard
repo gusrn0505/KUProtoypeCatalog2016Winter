@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AMS-0K-erP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="saI-T7-93J">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -170,7 +170,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eh6-uO-F8q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1055" y="2120"/>
+            <point key="canvasLocation" x="1699" y="2074"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="CKM-SG-jSH">
@@ -435,7 +435,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7nW-pd-ShD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1989" y="-58"/>
+            <point key="canvasLocation" x="1462" y="-58"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="1BF-fb-5J5">
@@ -617,36 +617,17 @@
             </objects>
             <point key="canvasLocation" x="27" y="1444.5"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="ZEH-pJ-ufz">
-            <objects>
-                <viewController id="fDQ-GO-JfG" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="JU9-Ud-ScR"/>
-                        <viewControllerLayoutGuide type="bottom" id="534-hI-tzD"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Usk-Jv-4dF">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="da7-1v-Y8K" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-723" y="1831"/>
-        </scene>
         <!--Table1-->
         <scene sceneID="im7-aK-Xtu">
             <objects>
-                <tableViewController id="AMS-0K-erP" customClass="table1" customModule="PPTest_myapp" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="AMS-0K-erP" customClass="Table1" customModule="PPTest_myapp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="ANu-e8-3ix">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="DEZ-zH-Z3Q">
-                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="92" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DEZ-zH-Z3Q" id="E3n-l7-ay4">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -659,11 +640,18 @@
                             <outlet property="delegate" destination="AMS-0K-erP" id="FYW-N1-DKS"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="dIw-TY-LUx">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="CB6-Gp-Z3A">
+                            <connections>
+                                <segue destination="jO8-dI-33N" kind="presentation" id="9tZ-fD-tW9"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8b0-Ih-smv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-81" y="1988"/>
+            <point key="canvasLocation" x="358" y="1988"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="gvw-Vh-JRd">
@@ -873,7 +861,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BAS-Bm-VWO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="617" y="1548"/>
+            <point key="canvasLocation" x="617" y="1504"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="Ou2-L6-hvD">
@@ -1124,7 +1112,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ygn-vl-wqm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1567" y="-58"/>
+            <point key="canvasLocation" x="1055" y="-58"/>
         </scene>
         <!--약속상대초대-->
         <scene sceneID="rdi-sE-Gzg">
@@ -1371,7 +1359,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mxz-qp-XDs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2378" y="-58"/>
+            <point key="canvasLocation" x="1867" y="-58"/>
         </scene>
         <!--가능한 시간 - 강진구, 민상일-->
         <scene sceneID="hA0-kc-9SE">
@@ -1621,7 +1609,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mWn-WZ-b1z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1055" y="1521"/>
+            <point key="canvasLocation" x="1055" y="1493"/>
         </scene>
         <!--스케쥴-->
         <scene sceneID="KTg-PQ-hhd">
@@ -1857,7 +1845,59 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T2q-wL-HmL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1462" y="1480"/>
+            <point key="canvasLocation" x="1462" y="1505"/>
+        </scene>
+        <!--Addnewappointment View Controller-->
+        <scene sceneID="VTr-RF-XhU">
+            <objects>
+                <viewController id="s9V-wp-Hlh" customClass="AddnewappointmentViewController" customModule="PPTest_myapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ucc-N4-H9R"/>
+                        <viewControllerLayoutGuide type="bottom" id="NoE-if-ZKu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="30l-fM-ngD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="T9Q-uu-EnL">
+                                <rect key="frame" x="0.0" y="97" width="320" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="477816130.45612502">
+                                    <!--2016-02-22 06:42:10 +0000-->
+                                </date>
+                            </datePicker>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="0WS-Z1-Lfs">
+                                <rect key="frame" x="0.0" y="344" width="320" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="477816211.146725">
+                                    <!--2016-02-22 06:43:31 +0000-->
+                                </date>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="시작시간" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2R-lC-nPO">
+                                <rect key="frame" x="7" y="72" width="61" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="끝나는 시간" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fc6-5o-W7D">
+                                <rect key="frame" x="7" y="315" width="89" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="txc-2J-pkD">
+                        <barButtonItem key="leftBarButtonItem" systemItem="done" id="NMh-Qh-BcB">
+                            <connections>
+                                <action selector="addNewAppointment:" destination="s9V-wp-Hlh" id="Cl2-FW-dwe"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ryc-6u-ODL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1196" y="2033"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="rYR-Bc-tUc">
@@ -1876,7 +1916,44 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="phE-d2-hy4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1035" y="-58"/>
+            <point key="canvasLocation" x="617" y="-58"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5Ts-VO-AY4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="saI-T7-93J" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EAC-R1-p45">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="AMS-0K-erP" kind="relationship" relationship="rootViewController" id="QYO-5C-etf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DBo-k0-DfM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-81" y="1988"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="NGS-S7-beD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jO8-dI-33N" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VPy-D0-qmV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="s9V-wp-Hlh" kind="relationship" relationship="rootViewController" id="AMY-QZ-nX0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wJI-Ta-5uI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="767" y="1988"/>
         </scene>
     </scenes>
     <resources>
@@ -1891,9 +1968,9 @@
         <image name="최종 달력" width="509" height="388"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="auv-xQ-mCe"/>
-        <segue reference="3Jb-mx-ueA"/>
-        <segue reference="NsC-UE-ham"/>
+        <segue reference="8Zn-Gh-UEf"/>
         <segue reference="vZ3-bn-wHY"/>
+        <segue reference="4lr-pZ-xfP"/>
+        <segue reference="NsC-UE-ham"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DD2BA9011C7566910037028D /* table1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2BA9001C7566910037028D /* table1.swift */; };
+		DD2BA9051C7AE04D0037028D /* AddnewappointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2BA9041C7AE04D0037028D /* AddnewappointmentViewController.swift */; };
 		DDF503551C4F40A700B3CBF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF503541C4F40A700B3CBF3 /* AppDelegate.swift */; };
 		DDF503571C4F40A700B3CBF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF503561C4F40A700B3CBF3 /* ViewController.swift */; };
 		DDF5035A1C4F40A700B3CBF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF503581C4F40A700B3CBF3 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		DD2BA9001C7566910037028D /* table1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = table1.swift; sourceTree = "<group>"; };
+		DD2BA9041C7AE04D0037028D /* AddnewappointmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddnewappointmentViewController.swift; sourceTree = "<group>"; };
 		DDF503511C4F40A700B3CBF3 /* PPTest-myapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PPTest-myapp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDF503541C4F40A700B3CBF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDF503561C4F40A700B3CBF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				DDF503541C4F40A700B3CBF3 /* AppDelegate.swift */,
 				DDF503561C4F40A700B3CBF3 /* ViewController.swift */,
 				DDF503581C4F40A700B3CBF3 /* Main.storyboard */,
+				DD2BA9041C7AE04D0037028D /* AddnewappointmentViewController.swift */,
 				DD2BA9001C7566910037028D /* table1.swift */,
 				DDF5036B1C4F40D400B3CBF3 /* UIViewController+Navigation.swift */,
 				DDF5035B1C4F40A700B3CBF3 /* Assets.xcassets */,
@@ -167,6 +170,7 @@
 				DDF5036C1C4F40D400B3CBF3 /* UIViewController+Navigation.swift in Sources */,
 				DDF503571C4F40A700B3CBF3 /* ViewController.swift in Sources */,
 				DDF503551C4F40A700B3CBF3 /* AppDelegate.swift in Sources */,
+				DD2BA9051C7AE04D0037028D /* AddnewappointmentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
