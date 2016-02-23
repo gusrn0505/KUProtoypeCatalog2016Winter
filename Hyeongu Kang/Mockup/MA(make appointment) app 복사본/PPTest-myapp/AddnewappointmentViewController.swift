@@ -20,11 +20,16 @@ class AddnewappointmentViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    @IBOutlet weak var starttime: UIDatePicker!
     
+    
+    
+    
+    @IBOutlet weak var finishtime: UIDatePicker!
 
     @IBAction func addNewAppointment(sender: AnyObject) {
-        let time1_1 = Time(date:9, hour:12)
-        let time1_2 = Time(date:9, hour:15)
+        let time1_1 = Time(date:25, hour:13)
+        let time1_2 = Time(date:25, hour:17)
         let newAppointment = Appointment(starttime: time1_1, finishtime: time1_2)
         if let presentingVC = self.presentingViewController as? UINavigationController, let listVC = presentingVC.topViewController as? Table1 {
             listVC.insertNewAppointment(newAppointment)

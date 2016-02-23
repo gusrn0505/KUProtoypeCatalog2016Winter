@@ -1859,12 +1859,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="T9Q-uu-EnL">
-                                <rect key="frame" x="0.0" y="97" width="320" height="216"/>
-                                <date key="date" timeIntervalSinceReferenceDate="477816130.45612502">
-                                    <!--2016-02-22 06:42:10 +0000-->
-                                </date>
-                            </datePicker>
                             <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="0WS-Z1-Lfs">
                                 <rect key="frame" x="0.0" y="344" width="320" height="216"/>
                                 <date key="date" timeIntervalSinceReferenceDate="477816211.146725">
@@ -1883,6 +1877,12 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="T9Q-uu-EnL">
+                                <rect key="frame" x="0.0" y="91" width="320" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="477816130.45612502">
+                                    <!--2016-02-22 06:42:10 +0000-->
+                                </date>
+                            </datePicker>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1894,6 +1894,10 @@
                         </barButtonItem>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="finishtime" destination="0WS-Z1-Lfs" id="8US-cf-HMN"/>
+                        <outlet property="starttime" destination="T9Q-uu-EnL" id="9Cw-XM-fr2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ryc-6u-ODL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1968,9 +1972,9 @@
         <image name="최종 달력" width="509" height="388"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="8Zn-Gh-UEf"/>
-        <segue reference="vZ3-bn-wHY"/>
-        <segue reference="4lr-pZ-xfP"/>
+        <segue reference="auv-xQ-mCe"/>
+        <segue reference="3Jb-mx-ueA"/>
         <segue reference="NsC-UE-ham"/>
+        <segue reference="vZ3-bn-wHY"/>
     </inferredMetricsTieBreakers>
 </document>
